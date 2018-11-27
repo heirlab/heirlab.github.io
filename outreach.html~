@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Humanoid Engineering & Intelligent Robotics (HEIR) Lab</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Humanoid Engineering & Intelligent Robotics (HEIR) Lab at Marquette University" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+        
+        <!-- Le styles -->
+        <link href="stylesheets/bootstrap-2.0.0.css" rel="stylesheet" />
+        <!-- <link href="stylesheets/bootstrap-responsive-2.0.0.css" rel="stylesheet" /> -->
+        
+        <link href="stylesheets/style.css" rel="stylesheet" />
+        
+        <!-- Javascripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="javascripts/libs/bootstrap-transition-2.0.0.js"></script>
+        <script src="javascripts/libs/bootstrap-carousel-2.0.0.js"></script>
+        <script src="javascripts/libs/jquery-nicescroll.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                              
+                              // Resize the page, content, and sidenav to fit the window.
+                              $(window).resize(function () {
+                                               var h = $(this).height(),
+                                               headerHeight = $('.navbar-inner').height(),
+                                               footerHeight = $('footer').height();
+                                               
+                                               $('#page-wrap').css('min-height', h);
+                                               $('#content').css('min-height', h - headerHeight - footerHeight);
+                                               $('#sidenav-content-viewport').height(h - headerHeight);
+                                               })
+                              .trigger('resize');
+                              
+                              // Prepare the carousel.
+                              $('.carousel').carousel({
+                                                      interval: 10000
+                                                      });
+                              
+                              });
+            </script>
+    </head>
+    <body>
+        
+        <!-- NAVBAR -->
+        <!--========-->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html">HEIR Lab @ Marquette University</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li><a href="projects.html">Research</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li class="active"><a href="publications.html">Publications</a></li>
+                            <li><a href="outreach.html">Outreach</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="page">
+            <div id="page-wrap">
+                
+                <div class="row">
+                    
+                    <div class="span12">
+                        
+                        <!-- CONTENT -->
+                        <!--=========-->
+                        <!--
+                         <div id="content-banner">
+                         <img src="img/banners/atlanta.jpg" />
+                         </div>
+                         -->
+                        
+                        <div id="content">
+                            
+                            <h1>Recent Publications</h1>
+                            
+                            <ul id="publications">
+                                <li>
+                                    <b>2013</b>
+                                </li>
+                                
+                                <li>A. Stroud, M. Morris, K. Carey, J.C. Williams, C. Randolph, A.B. Williams,
+                                    <a href="">MU-L8: The Design Architecture and 3D Printing of a Teen-Sized Humanoid Soccer Robot,</a>
+                                    8th Workshop on Humanoid Soccer Robots, IEEE-RAS International Conference on Humanoid Robots, Atlanta, GA, 2013.
+                                </li>
+                                
+                                <li>P. Kaefer, K. Germino, D. Venske, A.B. Williams,
+                                    <a href="">"Computational Awareness in a Tactile-Responsive Humanoid Robot Comedian",</a>
+                                    IEEE International Conference on Systems, Man, and Cybernetics, Manchester, UK, 2013.
+                                </li>
+                                
+                                <li>A.B. Williams, A. Stroud, J. Panka, J.C. Williams, 
+                                    <a href="">"Creative Concept Invention and Representation in an Interactive Child-Robot Healthy Snack Design Game"</a>
+                                    Computational Creativity, Concept Invention, and General Intelligence (C3GI) Workshop, International Joint Conference on Artificial Intelligence (IJCAI), Beijing, China, 2013.
+                                </li>
+
+                                <li>A.B. Williams, 
+                                    <a href="">"Towards Creative Humanoid Conceptualization Learning from Metaphor-Guided Pretense Play",</a>
+				    Creativity and (Early) Cognitive Development: A Perspective from Artificial Creativity, Developmental AI, and Robotics, AAAI Spring Symposium, Stanford University, AAAI Press, pp. 79-83, 2013.
+                                </li>
+
+                                <li>E. Russell, D. Ramgoolam, A.B. Williams, 
+                                    <a href="">"Stacy: A Humanoid Health Coach for Childhood Obesity",</a>
+				    HEIR Lab TR-131, Marquette University, 2013.
+                                </li>
+                                
+                            </ul>
+                            
+                            <script src="javascripts/libs/quicksilver.js"></script>
+                            <script src="javascripts/libs/jquery-liveupdate.js"></script>
+                            <script>
+                                $(document).ready(function () {
+                                                  $('#search').liveUpdate('#publications').focus();
+                                                  });
+                                </script> <!-- CONTENT -->
+                            
+                            
+                            <hr>
+                            
+                            <footer>
+                            <p>Marquette University, Department of Electrical &amp; Computer Engineering, College of Engineering, Engineering Hall, Milwaukee, WI USA</p>
+                            </footer>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

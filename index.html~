@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Humanoid Engineering and Intelligent Robotics (HEIR) Lab</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Socailly Intelligent Machines Lab @ Georgia Tech" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+        
+        <!-- Le styles -->
+        <link href="stylesheets/bootstrap-2.0.0.css" rel="stylesheet" />
+        <!-- <link href="stylesheets/bootstrap-responsive-2.0.0.css" rel="stylesheet" /> -->
+        
+        <link href="stylesheets/style.css" rel="stylesheet" />
+        
+        <!-- Javascripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="javascripts/libs/bootstrap-transition-2.0.0.js"></script>
+        <script src="javascripts/libs/bootstrap-carousel-2.0.0.js"></script>
+        <script src="javascripts/libs/jquery-nicescroll.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                              
+                              // Resize the page, content, and sidenav to fit the window.
+                              $(window).resize(function () {
+                                               var h = $(this).height(),
+                                               headerHeight = $('.navbar-inner').height(),
+                                               footerHeight = $('footer').height();
+                                               
+                                               $('#page-wrap').css('min-height', h);
+                                               $('#content').css('min-height', h - headerHeight - footerHeight);
+                                               $('#sidenav-content-viewport').height(h - headerHeight);
+                                               })
+                              .trigger('resize');
+                              
+                              // Prepare the carousel.
+                              $('.carousel').carousel({
+                                                      interval: 10000
+                                                      });
+                              
+                              });
+            </script>
+    </head>
+    <body>
+        
+        <!-- NAVBAR -->
+        <!--========-->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html">HEIR Lab @ Marquette University</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li><a href="projects.html">Research</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="outreach.html">Outreach</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="page">
+            <div id="page-wrap">
+                
+                <div class="row">
+                    
+                    <div class="span12">
+                        
+                        <!-- CONTENT -->
+                        <!--=========-->
+                        <div id="content">
+                            
+                            <div id="content-banner">
+                                <div id="banner-carousel" class="carousel slide">
+                                    <!-- Carousel Items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="img/banners/heirStudents.jpg" />
+                                            <div class="carousel-caption">
+                                                <h4>HEIR Lab Summer Research Students</h4>
+                                                <p>
+                                                Students from Puerto Rico join our lab for the summer.
+                                                </p>
+                                            </div>
+                                        </div>
+                                       <!-- <div class="item">
+                                            <center><img src="img/banners/mul8.jpg" /></center>
+                                            <div class="carousel-caption">
+                                                <h4>MU-L8 Early Days</h4>
+                                                <p>
+                                                MU-L8 coming together 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    
+                                    <!-- Carousel Nav -->
+                                    <a class="carousel-control left" href="#banner-carousel" data-slide="prev">&lsaquo;</a>
+                                    <a class="carousel-control right" href="#banner-carousel" data-slide="next">&rsaquo;</a>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            <!-- NEWS SECTION -->
+                            <!--==============-->
+                            <section id="news-list">
+                                <br>
+                                <h1>Humanoid Engineering & Intelligent Robotics (HEIR) Lab</h1>
+                                
+                                <div class="row">
+                                    
+                                    <!--==============-->
+                                    <div class="span2">
+                                        <img src="images/mul8med.jpg" /></a>
+                                    </div>
+                                    <div class="span4">
+                                        <h3>
+                                            Vision</br>
+                                            <small>July 30, 2013</small>
+                                        </h3>
+                                        <p>
+                                     The Vision of the Humanoid Engineering &amp; Intelligent Robotics (HEIR) Lab is to have an ethical and affordable humanoid robot in every home to assist humans with life tasks, healthy living, and learning in a socially intelligent manner.
+                                        </p>
+                                    </div>
+                                    <!--==============-->
+                                    
+                                    
+                                    <!--==============-->
+                                    <div class="span2">
+                                        <img src="images/mul8med.jpg" /></a>
+                                    </div>
+                                    <div class="span4">
+                                        <h3>
+                                            MU-L8 is here!</br>
+                                            <small>July 30, 2013</small>
+                                        </h3>
+                                        <p>
+                                        The MU-L8 was created January 2013 and its implementation is underway.
+                                        </p>
+                                    </div>
+                                    <!--==============-->
+                                    
+                                </div>
+                                
+    
+                                
+                                
+                                                               
+                                                               
+                            </section>
+                            
+                            <hr class="space"/>
+                            
+                            <section id="publications-list">
+                                
+                                <hr>
+                                
+                                <h1>Contact Information</h1>
+                                
+                                <ul id="publications">
+                                    <li>
+                                        Contact <a href="mailto:andrew.williams@marquette.edu">Dr. Andrew B. Williams</a> for information about the HEIR Lab.
+                                    </li>
+                                </ul>
+                                
+                            </section>
+                        </div>
+                        
+                        
+                        <hr>
+                        
+                        <footer>
+                            <p>Marquette University, Department of Electrical &amp; Computer Engineering, College of Engineering, Engineering Hall, Milwaukee, WI USA</p>
+                        </footer>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

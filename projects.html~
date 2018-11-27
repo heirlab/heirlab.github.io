@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Humanoid Engineering &amp; Intelligent Robotics Lab</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Humanoid Engineering & Intelligent Robotics lab at Marquette University" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+        
+        <!-- Le styles -->
+        <link href="stylesheets/bootstrap-2.0.0.css" rel="stylesheet" />
+        <!-- <link href="stylesheets/bootstrap-responsive-2.0.0.css" rel="stylesheet" /> -->
+        
+        <link href="stylesheets/style.css" rel="stylesheet" />
+        
+        <!-- Javascripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="javascripts/libs/bootstrap-transition-2.0.0.js"></script>
+        <script src="javascripts/libs/bootstrap-carousel-2.0.0.js"></script>
+        <script src="javascripts/libs/jquery-nicescroll.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                              
+                              // Resize the page, content, and sidenav to fit the window.
+                              $(window).resize(function () {
+                                               var h = $(this).height(),
+                                               headerHeight = $('.navbar-inner').height(),
+                                               footerHeight = $('footer').height();
+                                               
+                                               $('#page-wrap').css('min-height', h);
+                                               $('#content').css('min-height', h - headerHeight - footerHeight);
+                                               $('#sidenav-content-viewport').height(h - headerHeight);
+                                               })
+                              .trigger('resize');
+                              
+                              // Prepare the carousel.
+                              $('.carousel').carousel({
+                                                      interval: 10000
+                                                      });
+                              
+                              });
+            </script>
+    </head>
+    <body>
+        
+        <!-- NAVBAR -->
+        <!--========-->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html">HEIR Lab @ Marquette University</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li class="active"><a href="projects.html">Research</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="outreach.html">Outreach</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="page">
+            <div id="page-wrap">
+                
+                <div class="row">
+                    
+                    <div class="span12">
+                        
+                        <!-- CONTENT -->
+                        <!--=========-->
+                        <div id="content">
+                            
+                            <!--
+                             <div id="content-banner">
+                             <img src="img/banners/atlanta.jpg" />
+                             </div>
+                             -->
+                            <!-- PROJECTS -->
+                            <!--==============-->
+                            <section id="news-list">
+                                
+                                <hr class="space" />
+                                
+                                <div class="row">
+                                    <div class="span12">
+				      The vision of our research is to enable humanoid robots to interact intelligent and socially with children and adults to improve their health, learning, and living in an ethical manner. We conduct research in humanoid robot creativity and novel concept learning through robot-child interaction, intelligent, adaptive humanoid health coaching for childhood obesity prevention and intervention, and humanoid soccer robot algorithms.  The HEIR Lab encourages undergraduate students and high school students to participate in discovery and research projects along with graduate student and post-doctorate researchers.
+
+                                    </div>
+                                </div>
+                                
+                                <hr class="space" />
+                                <hr>
+                                <center><h2>Humanoid Health Coaching for Childhood Obesity</h2></center>
+                                <hr>
+                                
+                                
+                                <div class="row">
+                                    <div class="span6">
+                                        <h3>
+                                            Towards a Social and Mobile Humanoid Health Coach for Childhood Obesity</br>
+                                            <small>E. Russell, D. Ramgoolam, A.B. Williams</small>
+                                        </h3>
+                                        <p>We are developing a social and mobile humanoid health coach that will explain and perform physical exercises along with the human in an effort to increase their physical activity.  Our humanoid health coach, Stacy, provides motivation and encouragement.  Our humanoid health coach will learn creative concepts through interaction with children in healthy snack design games.
+
+					<p>
+					<a href=""></a>
+					<p>
+				     </div>
+				     <div class="span6">
+                                        <object style="width: 480px"><param name="movie" value="http://www.youtube.com/v/WLZP371icXY?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/WLZP371icXY?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="480" height="270"></object>
+                                    </div>
+                                </div>
+                                
+<hr class="space" />
+                                <hr>
+                                <center><h2>3D Printed Teen-Size Humanoid Soccer and Health Coach Robot</h2></center>
+                                <hr>
+                                
+                                
+
+                                
+                                
+                                <div class="row">
+                                    <div class="span6">
+                                        <h3>
+                                            MU-L8: The Design Architecture and 3D Printing of a Teen-Sized Humanoid Soccer Robot</br>
+                                            <small>A. Stroud, M. Morris, K. Carey, J.C. Williams, C. Randolph, A.B. Williams</small>
+                                        </h3>
+                                        <p>
+                                        
+                                        <p>
+                                        <a href=""></a>
+
+                                    </div>
+                                    <div class="span6">
+                                        <object style="width: 480px"><param name="movie" value="http://www.youtube.com/v/5lVxOKSeYsk?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/5lVxOKSeYsk?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="480" height="270"></object>
+                                    </div>
+                                </div>
+                                
+                                
+                        </div> <!-- CONTENT -->
+                        
+                        
+                        <hr>
+                        
+                        <footer>
+                            <p>Marquette University, Department of Electrical &amp; Computer Engineering, College of Engineering, Engineering Hall, Milwaukee, WI USA</p>
+                        </footer>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Humanoid Engineering & Intelligent Robotics (HEIR) Lab @ Marquette - Dr. Andrew B. Williams</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Humanoid Engineering & Intelligent Robotics (HEIR) Lab at Marquette University, Dr. Andrew B. Williams" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+        
+        <!-- Le styles -->
+        <link href="stylesheets/bootstrap-2.0.0.css" rel="stylesheet" />
+        <!-- <link href="stylesheets/bootstrap-responsive-2.0.0.css" rel="stylesheet" /> -->
+        
+        <link href="stylesheets/style.css" rel="stylesheet" />
+        
+        <!-- Javascripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="javascripts/libs/bootstrap-transition-2.0.0.js"></script>
+        <script src="javascripts/libs/bootstrap-carousel-2.0.0.js"></script>
+        <script src="javascripts/libs/jquery-nicescroll.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                              
+                              // Resize the page, content, and sidenav to fit the window.
+                              $(window).resize(function () {
+                                               var h = $(this).height(),
+                                               headerHeight = $('.navbar-inner').height(),
+                                               footerHeight = $('footer').height();
+                                               
+                                               $('#page-wrap').css('min-height', h);
+                                               $('#content').css('min-height', h - headerHeight - footerHeight);
+                                               $('#sidenav-content-viewport').height(h - headerHeight);
+                                               })
+                              .trigger('resize');
+                              
+                              // Prepare the carousel.
+                              $('.carousel').carousel({
+                                                      interval: 10000
+                                                      });
+                              
+                              });
+            </script>
+    </head>
+    <body>
+        
+        <!-- NAVBAR -->
+        <!--========-->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html">HEIR Lab @ Marquette University</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li><a href="projects.html">Research</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li class="active"><a href="publications.html">Publications</a></li>
+                            <li><a href="outreach.html">Outreach</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="page">
+            <div id="page-wrap">
+                
+                <div class="row">
+                    
+                    <div class="span12">
+                        
+                        <!-- CONTENT -->
+                        <!--=========-->
+                        <!--
+                         <div id="content-banner">
+                         <img src="img/banners/atlanta.jpg" />
+                         </div>
+                         -->
+                        
+                        <div id="content">
+                            
+                            <h1>Outreach</h1>
+			    <p>Our goal is to provide as many K-16 students as possible with opportunities to be exposed to STEM discovery and research opportunities and to motivate them to pursue STEM education.  We coach and train our students to become outstanding technical leaders and role models in our communities.
+                            <hr/>
+                            <ul id="publications">
+			        <li><b>Outreach with Marist High School Robotics Team</b>
+				<li><img src="images/MaristHighSchoolSmall.jpg">
+                                <li><b>Keynote at FIRST Regional Championships with Nicolet High School FIRST Team members</b>
+			        <li><img src="images/nicoletFIRSTsmall.jpg">
+
+                                <li><b>High School Outreach at University of Virgin Islands</b>
+			        <li><img src="images/virginislandssmall.jpg">
+
+                                <li><b>Montessori School HEIR Lab Visit</b>
+
+			        <li><img src="images/MontessoriSchoolSmall.jpg">
+
+                                <li><b>Outreach in San Juan, Puerto Rico at University of Turabo</b>
+			        <li><img src="images/PuertoRicoVisitSmall.jpg">
+                                
+
+
+                                
+                            </ul>
+                            
+                            <script src="javascripts/libs/quicksilver.js"></script>
+                            <script src="javascripts/libs/jquery-liveupdate.js"></script>
+                            <script>
+                                $(document).ready(function () {
+                                                  $('#search').liveUpdate('#publications').focus();
+                                                  });
+                                </script> <!-- CONTENT -->
+                            
+                            
+                            <hr>
+                            
+                            <footer>
+                            <p>Marquette University, Department of Electrical &amp; Computer Engineering, College of Engineering, Engineering Hall, Milwaukee, WI USA</p>
+                            </footer>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
